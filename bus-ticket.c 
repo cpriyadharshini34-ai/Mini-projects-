@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+int main()
+{
+    int tickets;
+    int price = 150;
+    int total;
+
+    printf("===== Bus Ticket Booking =====\n");
+
+    printf("Enter number of tickets: ");
+    scanf("%d", &tickets);
+
+    total = tickets * price;
+
+    printf("\nTicket Price = %d", price);
+    printf("\nTotal Amount = %d", total);
+
+    printf("\n\nBooking Successful!");
+
+    return 0;
+}
