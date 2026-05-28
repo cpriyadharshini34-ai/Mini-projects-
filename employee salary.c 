@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main()
+{
+    int basic_salary;
+    float hra, da, total_salary;
+
+    printf("Enter Basic Salary: ");
+    scanf("%d", &basic_salary);
+
+    hra = basic_salary * 0.20;
+    da = basic_salary * 0.10;
+
+    total_salary = basic_salary + hra + da;
+
+    printf("\nHRA = %.2f", hra);
+    printf("\nDA = %.2f", da);
+    printf("\nTotal Salary = %.2f", total_salary);
+
+    return 0;
+}
