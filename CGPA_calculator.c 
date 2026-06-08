@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+    float g1, g2, g3, g4, cgpa;
+
+    printf("Enter 4 semester GPAs: ");
+    scanf("%f%f%f%f", &g1, &g2, &g3, &g4);
+
+    cgpa = (g1 + g2 + g3 + g4) / 4;
+
+    printf("CGPA = %.2f", cgpa);
+
+    return 0;
+}
