@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+    float recharge, gst, total;
+
+    printf("Enter recharge amount: ");
+    scanf("%f", &recharge);
+
+    gst = recharge * 0.18;
+    total = recharge + gst;
+
+    printf("GST = %.2f\n", gst);
+    printf("Total Amount = %.2f", total);
+
+    return 0;
+}
