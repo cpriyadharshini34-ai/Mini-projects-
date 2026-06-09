@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int days;
+    float fine;
+
+    printf("Enter delayed days: ");
+    scanf("%d", &days);
+
+    fine = days * 2;
+
+    printf("Library Fine = %.2f", fine);
+
+    return 0;
+}
