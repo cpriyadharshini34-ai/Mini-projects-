@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int units;
+    float bill;
+
+    printf("Enter Water Units Used: ");
+    scanf("%d", &units);
+
+    bill = units * 3.5;
+
+    printf("Water Bill = %.2f", bill);
+
+    return 0;
+}
